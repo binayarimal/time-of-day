@@ -20,6 +20,7 @@ let currImage = "";
 let currColor = "";
 
 
+
 function currentTime(){
 if (myHour > 4 && myHour < 12){
     currGreeting = "Good Morning!";
