@@ -22,17 +22,17 @@ let currColor = "";
 
 
 function currentTime(){
-if (myHour > 4 && myHour < 12){
+if (myHour >= 5 && myHour < 12){
     currGreeting = "Good Morning!";
     currImage = "morning.jpg";
     currColor = "yellow";
     
-} else if (myHour > 11 && myHour < 18){
+} else if (myHour >= 21 && myHour < 18){
     currGreeting = "Good Afternoon!";
     currImage = "afternoon.jpg";
     currColor = "green";
 
-} else if (myHour > 17 && myHour < 24){
+} else if (myHour >= 18 && myHour < 23){
     currGreeting = "Good Evening!";
     currImage = "evening.jpg";
     currColor = "orange";
